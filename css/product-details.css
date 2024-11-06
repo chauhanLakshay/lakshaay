@@ -1,0 +1,313 @@
+ /* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Container */
+  #header-container {
+    width: 100%;
+    max-width: 1400px;
+    padding: 15px 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(218, 102, 7, 0.486);
+    border-radius: 10px;
+  }
+  
+  /* Logo */
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+  
+  /* Deliver-to Area */
+  #deliver {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: linear-gradient(to right, #fcbf49, #fff1d4);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  #deliver:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  #deliver-two {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height:35px;
+  }
+  
+  .flag {
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+  }
+  
+  /* Input Box Styling */
+  #inputbox {
+    width: 350px;
+    height: 45px;
+    display: flex;
+    background-color: #ffc465;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px hsla(28, 100%, 12%, 0.603);
+  }
+  
+  #input {
+    width: 300px;
+    height: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  #input:focus {
+    background-color: #fff5e6;
+  }
+  
+  #search-button {
+    padding: 10px;
+    background-color: #fb8500;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    transition: background-color 0.3s;
+  }
+  
+  #search-button:hover {
+    background-color: #007bff;
+  }
+  
+  #search-button i {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .suggestions {
+    background: #fff;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left:8px;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+  }
+  
+  .suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .suggestion-item:hover {
+    background: #f0f0f0;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
+  .result-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  
+    /*iconbox*/
+    #icons{
+        width: 14vw;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+    
+    #icons i{
+        font-size: 20px;
+    
+    }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /**************** 
+  ******products***/
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if the items overflow */
+    gap: 20px; /* Space between each product card */
+    justify-content: center; /* Centers the items horizontally */
+    padding: 20px; /* Adds some padding around the products section */
+  }
+  
+  .product-card {
+    width: 200px; /* Adjusted width for better readability */
+    border: 1px solid #e0e0e0;
+    border-radius: 15px; /* Softly rounded corners for a modern look */
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff; /* Ensures a clean background for each card */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: 200px; /* Fixed height for consistent layout */
+    object-fit: cover; /* Ensures images fill the area nicely */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .product-info {
+    padding: 15px; /* Adds padding inside the product info section */
+  }
+  
+  .product-info h5 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 8px 0 5px;
+    font-weight: bold;
+  }
+
+  .product-info h6 {
+    font-size: 1.1em;
+    color: #ff6f20; /* Brand color for price */
+    margin: 0;
+  }
+
+  .product-info p {
+    font-size: 0.9em;
+    color: #777;
+    margin: 8px 0 0;
+    line-height: 1.4;
+  }
+
+/*****************
+  ******products end
+******************/
+
+
+
+
+
+
+
+
+
+  
+/*******************
+******Footer start****
+********************/
+
+
+/* Footer Styling */
+.footer-section {
+    background-color: #f8f9fa;
+    color: #495057;
+  }
+  
+  .footer-branding img {
+    max-width: 100%;
+  }
+  
+  .footer-heading {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #343a40;
+  }
+  
+  .footer-section a {
+    color: #495057;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #007bff; /* Change to a consistent hover color */
+  }
+  
+  
+  .social-links a img {
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-links a:hover img {
+    opacity: 0.8; /* Ensure hover effect */
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .small {
+    font-size: 0.85rem;
+  }
+  
+  /* Social Links */
+  .social-links {
+    display: flex; /* Ensure it's a flex container */
+    gap: 15px; /* Adjust the gap between links */
+  }
+  .app-stores {
+    display: flex; /* Make it a flex container */
+    gap: 15px; /* Adjust the gap value */
+  }
+  
+  .app-stores a img {
+    transition: opacity 0.3s ease; /* Add hover effect */
+  }
+  
+  .app-stores a:hover img {
+    opacity: 0.8; /* Change opacity on hover */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .footer-section {
+        text-align: center;
+    }
+    .app-stores, .social-links {
+        justify-content: center;
+    }
+  }
+  

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "candles",
+        "description": "A beautiful bouquet of red roses.",
+        "price_inr": 499,
+        "image_url": "images/candels/candles (1).jpg"
+    },
+    {
+        "id": 2,
+        "title": "Employee Kit",
+        "description": "An elegant arrangement of white lilies.",
+        "price_inr": 1699,
+        "image_url": "images/kit/kit (3).jpg"
+    },
+    {
+        "id": 3,
+        "title": "Mixed Flower Basket",
+        "description": "A vibrant mix of seasonal flowers in a basket.",
+        "price_inr": 899,
+        "image_url": "images/flowers/flower (3).jpg"
+    },
+    {
+        "id": 4,
+        "title": "Coffee Cups",
+        "description": "A delicate bunch of exotic orchids.",
+        "price_inr": 1200,
+        "image_url": "images/New folder/cups (1).jpg"
+    },
+    {
+        "id": 5,
+        "title": "Gift Hamper",
+        "description": "A delicate bunch of exotic orchids.",
+        "price_inr": 1200,
+        "image_url": "images/hamper/Omay Foods Gift Box.jpg"
+    },
+        {
+            "id": 1,
+            "title": "Product 1",
+            "image_url": "images/product1.jpg",
+            "price": "19.99",
+            "description": "Description of product 1"
+        },
+        {
+            "id": 2,
+            "title": "Product 2",
+            "image_url": "images/product2.jpg",
+            "price": "29.99",
+            "description": "Description of product 2"
+        }

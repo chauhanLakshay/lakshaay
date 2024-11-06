@@ -1,0 +1,381 @@
+/********* General CSS *********/
+body {
+  font-family: 'Poppins-regular', sans-serif;
+  background-color: #f4f4f8;
+  color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins-Bold', sans-serif;
+}
+
+a {
+  color: #454545;
+  transition: color 0.3s ease;
+}
+
+
+a:hover,
+a:active,
+a:focus {
+  color: #F7CAC9;
+  outline: none;
+  text-decoration: none;
+}
+
+.btn:focus,
+.form-control:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid {
+  max-width: 1666px;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #F7CAC9;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  font-size: 22px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  z-index: 10;
+}
+
+.back-to-top:hover {
+  background: #343148;
+  transform: scale(1.1);
+}
+
+.back-to-top i {
+  color: #343148;
+}
+
+.back-to-top:hover i {
+  color: #F7CAC9;
+}
+
+/* Header Container */
+#Header-continer {
+  width: 100%;
+  max-width: 1400px;
+  height: 55px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  padding: 0 20px;
+}
+
+/* Logo */
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.flag {
+  height: 30px;
+  width: auto;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+/* Deliver-to Area */
+#deliver {
+  width: 18vw;
+  height: 45px;
+  background: linear-gradient(to right, #fcbf49, #fff1d4);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  gap: 1vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#deliver-two {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+
+/* Input Box Styling */
+#inputbox {
+  width: 350px;
+  height: 45px;
+  display: flex;
+  background-color: #fca311;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#input {
+  width: 300px;
+  height: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+#input:focus {
+  background-color: #fff5e6;
+}
+
+#search-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  transition: background-color 0.3s;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+}
+
+#search-button i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+/* Icon Box */
+#icons {
+  width: 14vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#icons i {
+  font-size: 20px;
+  color: #343148;
+  transition: color 0.3s;
+}
+
+#icons i:hover {
+  color: #fca311;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Refund Policy Page Styling */
+.refund-policy-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+/* Policy Overview Cards */
+.policy-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.policy-card h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.policy-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.policy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* FAQ Accordion */
+.faq-section .card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.faq-section .card-header {
+    background-color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-section .btn-link {
+    color: #007bff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.faq-section .card-body {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+/* Customer Support Section */
+.customer-support-section {
+    background-color: #fff3cd;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.customer-support-section h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.customer-support-section p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+/* Button Styling */
+.btn-primary, .btn-outline-primary {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+
+
+
+
+/* Footer Styling */
+.footer-section {
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.footer-branding img {
+  max-width: 100%;
+}
+
+.footer-heading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #343a40;
+}
+
+.footer-section a {
+  color: #495057;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #007bff; /* Change to a consistent hover color */
+}
+
+
+.social-links a img {
+  transition: opacity 0.3s ease;
+}
+
+.social-links a:hover img {
+  opacity: 0.8; /* Ensure hover effect */
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.small {
+  font-size: 0.85rem;
+}
+
+/* Social Links */
+.social-links {
+  display: flex; /* Ensure it's a flex container */
+  gap: 15px; /* Adjust the gap between links */
+}
+.app-stores {
+  display: flex; /* Make it a flex container */
+  gap: 15px; /* Adjust the gap value */
+}
+
+.app-stores a img {
+  transition: opacity 0.3s ease; /* Add hover effect */
+}
+
+.app-stores a:hover img {
+  opacity: 0.8; /* Change opacity on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .footer-section {
+      text-align: center;
+  }
+  .app-stores, .social-links {
+      justify-content: center;
+  }
+}

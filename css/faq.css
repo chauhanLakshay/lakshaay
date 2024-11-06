@@ -1,0 +1,370 @@
+/********* General CSS *********/
+body {
+    font-family: 'Poppins-regular', sans-serif;
+    background-color: #f4f4f8;
+    color: #333;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins-Bold', sans-serif;
+  }
+  
+  a {
+    color: #454545;
+    transition: color 0.3s ease;
+  }
+  
+  
+  a:hover,
+  a:active,
+  a:focus {
+    color: #F7CAC9;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .btn:focus,
+  .form-control:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container-fluid {
+    max-width: 1666px;
+  }
+  
+  /* Back to Top Button */
+  .back-to-top {
+    position: fixed;
+    display: none;
+    background: #F7CAC9;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    z-index: 10;
+  }
+  
+  .back-to-top:hover {
+    background: #343148;
+    transform: scale(1.1);
+  }
+  
+  .back-to-top i {
+    color: #343148;
+  }
+  
+  .back-to-top:hover i {
+    color: #F7CAC9;
+  }
+  
+  /* Header Container */
+  #Header-continer {
+    width: 100%;
+    max-width: 1400px;
+    height: 55px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 0 20px;
+  }
+  
+  /* Logo */
+  .logo {
+    height: 60px;
+    width: auto;
+  }
+  
+  .flag {
+    height: 30px;
+    width: auto;
+    border-radius: 12px;
+    border: 1px solid black;
+  }
+  
+  /* Deliver-to Area */
+  #deliver {
+    width: 18vw;
+    height: 45px;
+    background: linear-gradient(to right, #fcbf49, #fff1d4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    gap: 1vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #deliver-two {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+  }
+  
+  /* Input Box Styling */
+  #inputbox {
+    width: 350px;
+    height: 45px;
+    display: flex;
+    background-color: #fca311;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #input {
+    width: 300px;
+    height: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  #input:focus {
+    background-color: #fff5e6;
+  }
+  
+  #search-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    transition: background-color 0.3s;
+  }
+  
+  #search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  #search-button i {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  /* Icon Box */
+  #icons {
+    width: 14vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #icons i {
+    font-size: 20px;
+    color: #343148;
+    transition: color 0.3s;
+  }
+  
+  #icons i:hover {
+    color: #fca311;
+  }
+  
+
+
+
+/* FAQ Section */
+.faq-section {
+    background-color: #ffffff; /* White background for FAQ section */
+    padding: 40px 20px; /* Padding for spacing */
+}
+
+.faq-container {
+    max-width: 800px; /* Max width for the FAQ container */
+    margin: 0 auto; /* Centering the container */
+}
+
+.faq-header {
+    margin-bottom: 30px; /* Space below the header */
+}
+
+.faq-title {
+    font-size: 2.5em; /* Title font size */
+    color: #FF5722; /* Updated brand color */
+    text-align: center; /* Center the title */
+    font-weight: 600; /* Bold text */
+}
+
+.faq-subtitle {
+    font-size: 1.2em; /* Subtitle font size */
+    color: #555; /* Slightly darker color for subtitle */
+    text-align: center; /* Center the subtitle */
+}
+
+.faq-item {
+    border: 1px solid #e0e0e0; /* Border for each FAQ item */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 15px; /* Space between items */
+}
+
+.faq-button {
+    width: 100%; /* Full width for the button */
+    text-align: left; /* Align text to the left */
+    font-size: 1.2em; /* Button font size */
+    padding: 15px; /* Padding for the button */
+    border: none; /* No border */
+    background: none; /* No background */
+    color: #333; /* Text color for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s ease; /* Smooth background transition */
+}
+
+.faq-button:hover {
+    background-color: #f0f0f0; /* Background change on hover */
+}
+
+.faq-body {
+    padding: 15px; /* Padding for body */
+    background: #fff; /* White background for body */
+    border-top: 1px solid #e0e0e0; /* Border above body */
+}
+
+/* Terms and Conditions Styles */
+.terms-container {
+    max-width: 800px; /* Max width for the terms container */
+    margin: 50px auto; /* Centering the container */
+    padding: 30px; /* Padding for content */
+    background: #ffffff; /* White background for content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.terms-title {
+    text-align: center; /* Centering title */
+    font-size: 2.5em; /* Title font size */
+    color: #FF5722; /* Brand color */
+    margin-bottom: 20px; /* Space below title */
+    font-weight: 600; /* Bold text */
+}
+
+.terms-content h2 {
+    font-size: 1.8em; /* Size for section headers */
+    color: #333; /* Darker color for section titles */
+    margin-top: 30px; /* Space above sections */
+    border-bottom: 2px solid #FF5722; /* Underline effect */
+    padding-bottom: 10px; /* Space below section title */
+}
+
+.terms-content p {
+    line-height: 1.6; /* Increased line height for readability */
+    margin-bottom: 15px; /* Space between paragraphs */
+    color: #555; /* Slightly lighter text color */
+}
+
+a {
+    color: #FF5722; /* Brand color for links */
+    text-decoration: none; /* No underline for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .terms-container {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .terms-title {
+        font-size: 2em; /* Smaller title on mobile */
+    }
+
+    .terms-content h2 {
+        font-size: 1.5em; /* Smaller section titles on mobile */
+    }
+
+    .faq-title {
+        font-size: 2em; /* Smaller FAQ title on mobile */
+    }
+    
+    .faq-subtitle {
+        font-size: 1em; /* Smaller FAQ subtitle on mobile */
+    }
+}
+
+
+
+
+
+
+/* Footer Styling */
+.footer-section {
+    background-color: #f8f9fa;
+    color: #495057;
+  }
+  
+  .footer-branding img {
+    max-width: 100%;
+  }
+  
+  .footer-heading {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #343a40;
+  }
+  
+  .footer-section a {
+    color: #495057;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #007bff; /* Change to a consistent hover color */
+  }
+  
+  
+  .social-links a img {
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-links a:hover img {
+    opacity: 0.8; /* Ensure hover effect */
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .small {
+    font-size: 0.85rem;
+  }
+  
+  /* Social Links */
+  .social-links {
+    display: flex; /* Ensure it's a flex container */
+    gap: 15px; /* Adjust the gap between links */
+  }
+  .app-stores {
+    display: flex; /* Make it a flex container */
+    gap: 15px; /* Adjust the gap value */
+  }
+  
+  .app-stores a img {
+    transition: opacity 0.3s ease; /* Add hover effect */
+  }
+  
+  .app-stores a:hover img {
+    opacity: 0.8; /* Change opacity on hover */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .footer-section {
+        text-align: center;
+    }
+    .app-stores, .social-links {
+        justify-content: center;
+    }
+  }
+  

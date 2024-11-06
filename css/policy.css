@@ -1,0 +1,344 @@
+/********* General CSS *********/
+body {
+  font-family: 'Poppins-regular', sans-serif;
+  background-color: #f4f4f8;
+  color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins-Bold', sans-serif;
+}
+
+a {
+  color: #454545;
+  transition: color 0.3s ease;
+}
+
+
+a:hover,
+a:active,
+a:focus {
+  color: #F7CAC9;
+  outline: none;
+  text-decoration: none;
+}
+
+.btn:focus,
+.form-control:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid {
+  max-width: 1666px;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #F7CAC9;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  font-size: 22px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  z-index: 10;
+}
+
+.back-to-top:hover {
+  background: #343148;
+  transform: scale(1.1);
+}
+
+.back-to-top i {
+  color: #343148;
+}
+
+.back-to-top:hover i {
+  color: #F7CAC9;
+}
+
+/* Header Container */
+#Header-continer {
+  width: 100%;
+  max-width: 1400px;
+  height: 55px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  padding: 0 20px;
+}
+
+/* Logo */
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.flag {
+  height: 30px;
+  width: auto;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+/* Deliver-to Area */
+#deliver {
+  width: 18vw;
+  height: 45px;
+  background: linear-gradient(to right, #fcbf49, #fff1d4);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  gap: 1vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#deliver-two {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+
+/* Input Box Styling */
+#inputbox {
+  width: 350px;
+  height: 45px;
+  display: flex;
+  background-color: #fca311;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#input {
+  width: 300px;
+  height: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+#input:focus {
+  background-color: #fff5e6;
+}
+
+#search-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  transition: background-color 0.3s;
+}
+
+#search-button:hover {
+  background-color: #0056b3;
+}
+
+#search-button i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+/* Icon Box */
+#icons {
+  width: 14vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#icons i {
+  font-size: 20px;
+  color: #343148;
+  transition: color 0.3s;
+}
+
+#icons i:hover {
+  color: #fca311;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* General Styling */
+.border-with-shadow {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+.privacy-policy-section .section-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.privacy-policy-section .section-subtitle {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  max-width: 650px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+/* Policy Details */
+.policy-details,
+.policy-section {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.policy-details:hover,
+.policy-section:hover {
+  transform: translateY(-5px);
+}
+
+.policy-section h2 {
+  font-size: 1.6rem;
+  color: #3498db;
+  font-weight: 600;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 8px;
+}
+
+.policy-section p {
+  font-size: 1rem;
+  color: #34495e;
+  line-height: 1.6;
+}
+
+.policy-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #34495e;
+}
+
+.policy-section ul li {
+  padding: 5px 0;
+}
+
+.policy-section a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.policy-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .privacy-policy-section .section-title {
+      font-size: 2.2rem;
+  }
+  
+  .privacy-policy-section .section-subtitle {
+      font-size: 1rem;
+  }
+
+  .policy-section h2 {
+      font-size: 1.4rem;
+  }
+}
+
+
+
+
+
+
+/* Footer Styling */
+.footer-section {
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.footer-branding img {
+  max-width: 100%;
+}
+
+.footer-heading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #343a40;
+}
+
+.footer-section a {
+  color: #495057;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #007bff; /* Change to a consistent hover color */
+}
+
+
+.social-links a img {
+  transition: opacity 0.3s ease;
+}
+
+.social-links a:hover img {
+  opacity: 0.8; /* Ensure hover effect */
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.small {
+  font-size: 0.85rem;
+}
+
+/* Social Links */
+.social-links {
+  display: flex; /* Ensure it's a flex container */
+  gap: 15px; /* Adjust the gap between links */
+}
+.app-stores {
+  display: flex; /* Make it a flex container */
+  gap: 15px; /* Adjust the gap value */
+}
+
+.app-stores a img {
+  transition: opacity 0.3s ease; /* Add hover effect */
+}
+
+.app-stores a:hover img {
+  opacity: 0.8; /* Change opacity on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .footer-section {
+      text-align: center;
+  }
+  .app-stores, .social-links {
+      justify-content: center;
+  }
+}

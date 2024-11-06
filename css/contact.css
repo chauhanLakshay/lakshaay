@@ -1,0 +1,485 @@
+/********* General CSS *********/
+body {
+  font-family: 'Poppins-regular', sans-serif;
+  background-color: #f4f4f8;
+  color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins-Bold', sans-serif;
+}
+
+a {
+  color: #454545;
+  transition: color 0.3s ease;
+}
+
+
+a:hover,
+a:active,
+a:focus {
+  color: #F7CAC9;
+  outline: none;
+  text-decoration: none;
+}
+
+.btn:focus,
+.form-control:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid {
+  max-width: 1666px;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #F7CAC9;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  font-size: 22px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  z-index: 10;
+}
+
+.back-to-top:hover {
+  background: #343148;
+  transform: scale(1.1);
+}
+
+.back-to-top i {
+  color: #343148;
+}
+
+.back-to-top:hover i {
+  color: #F7CAC9;
+}
+
+/* Header Container */
+#Header-continer {
+  width: 100%;
+  max-width: 1400px;
+  height: 55px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  padding: 0 20px;
+}
+
+/* Logo */
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.flag {
+  height: 30px;
+  width: auto;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+/* Deliver-to Area */
+#deliver {
+  width: 18vw;
+  height: 45px;
+  background: linear-gradient(to right, #fcbf49, #fff1d4);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  gap: 1vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#deliver-two {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+}
+
+/* Input Box Styling */
+#inputbox {
+  width: 350px;
+  height: 45px;
+  display: flex;
+  background-color: #ffc465;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px hsla(28, 100%, 12%, 0.603);
+}
+
+#input {
+  width: 300px;
+  height: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+#input:focus {
+  background-color: #fff5e6;
+}
+
+#search-button {
+  padding: 10px;
+  background-color: #fb8500;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  transition: background-color 0.3s;
+}
+
+#search-button:hover {
+  background-color: #007bff;
+}
+
+#search-button i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+
+
+/* Suggestions Styling */
+.suggestions {
+  background: #fff;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+  margin-top: 50px;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.suggestion-item:hover {
+  background: #f0f0f0;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.result-card {
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon Box */
+#icons {
+  width: 14vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#icons i {
+  font-size: 20px;
+  color: #343148;
+  transition: color 0.3s;
+}
+
+#icons i:hover {
+  color: #fca311;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  /******************************
+  **********contact US page *****/
+/* Contact Us Section Styling */
+.contact-us-section {
+  background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+  padding: 80px 0;
+}
+
+/* Section Title Styling */
+.section-title {
+  font-size: 2.8rem;
+  color: #333;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: linear-gradient(to right, #ff9900, #ffd89e);
+  margin: 12px auto 0;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-subtitle {
+  font-size: 1.3rem;
+  color: #555;
+  max-width: 750px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+/* Contact Info Styling */
+.contact-info {
+  background-color: #ffffff;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  color: #333;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-info:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-heading {
+  font-size: 1.3rem;
+  color: #ff8a3c;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: #495057;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.contact-info i {
+  color: #000000;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Contact Form Styling */
+.contact-form {
+  background-color: #ffffff; /* Light orange background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(204, 85, 0, 0.1); /* Subtle shadow */
+  border: 1px solid #ffd9b3; /* Slightly darker border */
+}
+
+.form-label {
+  font-size: 1rem;
+  color: #ff8a3c; /* Medium orange */
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  border: 1px solid #ffa64d; /* Brighter orange border */
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  color: #333;
+}
+
+.form-control:focus {
+  border-color: #ff8c42;
+  box-shadow: 0 0 8px rgba(255, 140, 66, 0.3); /* Orange shadow on focus */
+}
+
+.btn-orange {
+  background-color: #ffa770; /* Bright orange button */
+  border: none;
+  font-size: 1.1rem;
+  padding: 12px 40px;
+  border-radius: 8px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  color: #fff;
+}
+
+.btn-orange:hover {
+  background-color: #ff8a3c; /* Darker shade of orange */
+  box-shadow: 0 4px 12px rgba(255, 140, 66, 0.3);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .form-label {
+      font-size: 0.9rem;
+  }
+
+  .form-control {
+      font-size: 0.9rem;
+  }
+  
+  .btn-orange {
+      font-size: 1rem;
+      padding: 10px 30px;
+  }
+}
+
+/* Button Styling */
+.btn-primary {
+  background: linear-gradient(to right, #ff9900, #ffd89e);
+  border: none;
+  font-size: 1.2rem;
+  padding: 12px 36px;
+  border-radius: 8px;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #0056b3, #e60073);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .section-title {
+      font-size: 2.2rem;
+  }
+  
+  .section-subtitle {
+      font-size: 1.1rem;
+  }
+  
+  .contact-heading {
+      font-size: 1.2rem;
+  }
+  
+  .form-control,
+  .btn-primary {
+      font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Footer Styling */
+.footer-section {
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.footer-branding img {
+  max-width: 100%;
+}
+
+.footer-heading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #343a40;
+}
+
+.footer-section a {
+  color: #495057;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #007bff; /* Change to a consistent hover color */
+}
+
+
+.social-links a img {
+  transition: opacity 0.3s ease;
+}
+
+.social-links a:hover img {
+  opacity: 0.8; /* Ensure hover effect */
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.small {
+  font-size: 0.85rem;
+}
+
+/* Social Links */
+.social-links {
+  display: flex; /* Ensure it's a flex container */
+  gap: 15px; /* Adjust the gap between links */
+}
+.app-stores {
+  display: flex; /* Make it a flex container */
+  gap: 15px; /* Adjust the gap value */
+}
+
+.app-stores a img {
+  transition: opacity 0.3s ease; /* Add hover effect */
+}
+
+.app-stores a:hover img {
+  opacity: 0.8; /* Change opacity on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .footer-section {
+      text-align: center;
+  }
+  .app-stores, .social-links {
+      justify-content: center;
+  }
+}

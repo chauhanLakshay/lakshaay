@@ -1,0 +1,938 @@
+can you update this css with your idea- 
+/*******************************/
+/******font css**********/
+
+
+
+*{
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+}
+  
+  
+  
+  /******font css**********/
+  
+  
+  
+  
+  
+  
+/*********
+**** Header ***
+*********/
+
+/*********
+****Top BAR ***
+*********/
+
+
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Container */
+#header-container {
+  width: 100%;
+  max-width: 1400px;
+  padding: 15px 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(218, 102, 7, 0.486);
+  border-radius: 10px;
+}
+
+/* Logo */
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+/* Deliver-to Area */
+#deliver {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background: linear-gradient(to right, #fcbf49, #fff1d4);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+#deliver:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#deliver-two {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height:35px;
+}
+
+.flag {
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+/* Input Box Styling */
+#inputbox {
+  width: 350px;
+  height: 45px;
+  display: flex;
+  background-color: #ffc465;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px hsla(28, 100%, 12%, 0.603);
+}
+
+#input {
+  width: 300px;
+  height: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+#input:focus {
+  background-color: #fff5e6;
+}
+
+#search-button {
+  padding: 10px;
+  background-color: #fb8500;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  transition: background-color 0.3s;
+}
+
+#search-button:hover {
+  background-color: #007bff;
+}
+
+#search-button i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.suggestions {
+  background: #fff;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left:8px;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  width: 200px;
+  z-index: 1;
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.suggestion-item:hover {
+  background: #f0f0f0;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.result-card {
+  background: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+
+  /*iconbox*/
+  #icons{
+      width: 14vw;
+      height: 5vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+     
+  }
+  
+  #icons i{
+      font-size: 20px;
+  
+  }
+
+
+
+
+
+  
+  
+  
+/********************************
+*********navigation Start *******
+********************************/
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu icon for mobile view */
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 20px;
+  display: none; /* Hidden on desktop */
+}
+
+/* Main Navigation Styling */
+#navigation {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #c7c7c7;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+#navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#navigation ul li {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+
+#navigation ul li a {
+  font-family: 'poppins-bold', Helvetica, sans-serif;
+  text-decoration: none;
+  color: #ff9100;
+}
+
+#navigation ul li .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px rgba(139, 51, 0, 0.2);
+  z-index: 1;
+  min-width: 150px;
+}
+
+#navigation ul li:hover .dropdown {
+  display: block;
+}
+
+/* Mobile view settings */
+@media (max-width: 991.98px) {
+  /* Display menu icon on mobile */
+  .menu-icon {
+    display: block;
+    font-size: 24px; /* Make menu icon larger */
+    color: #ffffff; /* Ensure visibility on background */
+    cursor: pointer; /* Indicate it's clickable */
+    padding: 10px; /* Add some padding for easier tap */
+  }
+
+  /* Hide navigation on mobile by default */
+  #navigation {
+    display: none; /* Hide navigation */
+    position: fixed; /* Fixed positioning */
+    left: 0; /* Start from the left */
+    top: 0; /* Position at the top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background: #fa7d0f; /* Set background color */
+    z-index: 10; /* Above other elements */
+    transition: transform 0.4s ease; /* Smooth transition */
+    transform: translateX(-100%); /* Start hidden to the left */
+  }
+
+  /* Show navigation when open */
+  #navigation.responsive {
+    display: flex; /* Use flexbox for layout */
+    transform: translateX(0); /* Slide into view */
+  }
+
+  #navigation ul {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding for aesthetics */
+    margin: 0; /* Remove default margin */
+    list-style: none; /* Remove bullet points */
+  }
+
+  #navigation ul li {
+    margin: 15px 0; /* Space between menu items */
+  }
+
+  #navigation ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* Link color */
+    font-size: 18px; /* Font size for menu items */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+
+  #navigation ul li a:hover {
+    color: #000000; /* Change color on hover */
+    background: rgba(255, 255, 255, 0.3); /* Slight background on hover */
+    padding: 10px; /* Add padding for better touch targets */
+    border-radius: 5px; /* Rounded corners */
+  }
+
+  /* Dropdown styles */
+  #navigation ul li .dropdown {
+    display: none; /* Hide dropdowns initially */
+    position: absolute; /* Position below the menu item */
+    left: 50%; /* Center dropdown */
+    transform: translateX(-50%); /* Center the dropdown */
+    background: #fa7d0f; /* Same as the menu background */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 0; /* Padding for dropdown */
+  }
+
+  #navigation ul li:hover .dropdown {
+    display: block; /* Show dropdown on hover */
+  }
+}
+
+  
+  
+  
+  
+  
+  
+/* Slideshow container */
+.slideshow-container {
+  width: 75%;
+  max-width: 1400px;
+  max-height:500px;
+  position: relative;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+/* Slide text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 12px;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+}
+
+/* Number text */
+.numbertext {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Navigation Arrows */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.3s;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: transparent;
+}
+
+/* Dot container */
+.dot-container {
+  text-align: center;
+  padding: 10px;
+  background: transparent;
+  border-radius: 0 0 15px 15px;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  margin: 0 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.7s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: 0.89} 
+  to {opacity: 1}
+}
+
+/* Responsive text size */
+@media only screen and (max-width: 600px) {
+  .text {font-size: 16px}
+}
+
+  
+  /**************** 
+  ******products***/
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if the items overflow */
+    gap: 20px; /* Space between each product card */
+    justify-content: center; /* Centers the items horizontally */
+    padding: 20px; /* Adds some padding around the products section */
+  }
+  
+  .product-card {
+    width: 200px; /* Adjusted width for better readability */
+    border: 1px solid #e0e0e0;
+    border-radius: 15px; /* Softly rounded corners for a modern look */
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff; /* Ensures a clean background for each card */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: 200px; /* Fixed height for consistent layout */
+    object-fit: cover; /* Ensures images fill the area nicely */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .product-info {
+    padding: 15px; /* Adds padding inside the product info section */
+  }
+  
+  .product-info h5 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 8px 0 5px;
+    font-weight: bold;
+  }
+
+  .product-info h6 {
+    font-size: 1.1em;
+    color: #ff6f20; /* Brand color for price */
+    margin: 0;
+  }
+
+  .product-info p {
+    font-size: 0.9em;
+    color: #777;
+    margin: 8px 0 0;
+    line-height: 1.4;
+  }
+
+/*****************
+  ******products end
+******************/
+
+
+
+
+ /*****************
+  ******Shop2 Start
+  ******************/
+
+
+
+  .shop2 {
+    display: flex;
+    max-width: 1400px; /* Allows it to be smaller on smaller screens */
+    width: 100%; /* Ensures it fills the available space */
+    flex-wrap: wrap; /* Allows wrapping if the items overflow */
+    gap: 20px; /* Space between each product card */
+    justify-content: center; /* Centers the items horizontally */
+    margin: 0 auto; /* Centers the .shop2 container */
+}
+
+/* Example for product card styling */
+.Relationship {
+    width: 280px; /* Width of each product card */
+    border: 1px solid #ccc;
+    border-radius: 100px 100px 5px 5px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+
+  }
+  
+  .product-info h4 {
+    margin: 8px ;
+  }
+
+
+ /******************
+  ******Shop2 End****
+  ******************/
+
+
+
+
+/* Container for customer testimonials */
+.customer-testimonial {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  border-radius: 8px;
+  max-width: 1600px; /* Sets the maximum width of the container */
+  width: 100%; /* Ensures the container fills available space */
+  margin: 40px auto; /* Centers the container and adds space above and below */
+  text-align: center; /* Centers text inside the container */
+}
+
+/* Header styling */
+.customer-testimonial h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Testimonial cards container for horizontal layout */
+.testimonial-cards {
+  display: flex;
+  gap: 20px; /* Space between each testimonial card */
+  overflow-x: auto; /* Allows horizontal scrolling if necessary */
+  padding: 10px 0;
+  scroll-snap-type: x mandatory; /* Enables snap scrolling */
+  justify-content: center; /* Centers cards horizontally within the container */
+}
+
+/* Individual testimonial card styling */
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  min-width: 250px; /* Ensures cards have a minimum width */
+  max-width: 300px; /* Sets a maximum width for cards */
+  flex: 0 0 auto; /* Prevents cards from shrinking */
+  scroll-snap-align: start; /* Ensures cards snap into position */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left; /* Aligns text to the left within the card */
+}
+
+/* Optional: Add a hover effect for the testimonial cards */
+.testimonial-card:hover {
+  transform: translateY(-3px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+
+/* Testimonial hover effect */
+.testimonial-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Testimonial image styling */
+.testimonial-card .testimonial-image {
+  width: 100%;
+  height: 180px; /* Fixed height for consistent card layout */
+  border-radius: 8px;
+  overflow: hidden; /* Ensure images fit within the rounded corners */
+  margin-bottom: 10px;
+}
+
+/* Testimonial image size */
+.testimonial-card .testimonial-image img {
+  width: 100%; /* Make images responsive */
+  height: 100%; /* Fill the container */
+  object-fit: cover; /* Maintain aspect ratio while filling the area */
+}
+
+/* Testimonial text and reviewer info */
+.testimonial-card p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.testimonial-card .reviewer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #777;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.testimonial-card .review-date {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: #999;
+}
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .testimonial-cards {
+    gap: 15px;
+  }
+
+  .testimonial-card {
+    min-width: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Blog Section Styling */
+.blog-section {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  border-radius: 8px;
+  max-width: 1600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Blog Header Styling */
+.blog-section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Blog Posts Container */
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual Blog Post Styling */
+.blog-post {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 280px; /* Width of each blog card */
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Blog Image Styling */
+.blog-image {
+  width: 100%;
+  height: 180px;
+  background-color: #d3d3d3;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.blog-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Blog Post Title and Text */
+.blog-post h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.blog-post a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.blog-post a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .blog-post {
+      width: 100%; /* Adjust width on smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+  
+/*******************
+******Footer start****
+********************/
+
+
+/* Footer Styling */
+.footer-section {
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.footer-branding img {
+  max-width: 100%;
+}
+
+.footer-heading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #343a40;
+}
+
+.footer-section a {
+  color: #495057;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #007bff; /* Change to a consistent hover color */
+}
+
+
+.social-links a img {
+  transition: opacity 0.3s ease;
+}
+
+.social-links a:hover img {
+  opacity: 0.8; /* Ensure hover effect */
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.small {
+  font-size: 0.85rem;
+}
+
+/* Social Links */
+.social-links {
+  display: flex; /* Ensure it's a flex container */
+  gap: 15px; /* Adjust the gap between links */
+}
+.app-stores {
+  display: flex; /* Make it a flex container */
+  gap: 15px; /* Adjust the gap value */
+}
+
+.app-stores a img {
+  transition: opacity 0.3s ease; /* Add hover effect */
+}
+
+.app-stores a:hover img {
+  opacity: 0.8; /* Change opacity on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .footer-section {
+      text-align: center;
+  }
+  .app-stores, .social-links {
+      justify-content: center;
+  }
+}
