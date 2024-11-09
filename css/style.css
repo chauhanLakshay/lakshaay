@@ -135,7 +135,7 @@ can you update this css with your idea-
 /* General Styling */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f4f4f8;
+  background-color: #FFFEE9;
   color: #333;
   margin: 0;
   padding: 0;
@@ -152,7 +152,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 15px;
-  background-color: #FFE5B4;
+  background-color: #FFFEE9;
   box-shadow: 0 2px 10px rgba(218, 102, 7, 0.486);
   border-radius: 10px;
 }
@@ -301,7 +301,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FFE5B4;
+  background-color: #FFFEE9;
 }
 
 /* Menu icon for mobile view */
@@ -344,7 +344,7 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #FFE5B4;
+  background-color: #FFFEE9;
   box-shadow: 0px 8px 16px rgba(139, 51, 0, 0.2);
   z-index: 1;
   min-width: 150px;
@@ -550,7 +550,7 @@ body {
     text-align: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background-color: #FFE5B4; /* Ensures a clean background for each card */
+    background-color: #FFFEE9; /* Ensures a clean background for each card */
   }
   
   .product-card:hover {
@@ -763,7 +763,7 @@ body {
 
 /* Blog Section Styling */
 .blog-section {
-  background-color: #FFE5B4;
+  background-color: #FFFEE9;
   padding: 40px 20px;
   border-radius: 8px;
   max-width: 1600px;
@@ -868,7 +868,7 @@ body {
 
 /* Footer Styling */
 .footer-section {
-  background-color: #FFE5B4;
+  background-color: #FFFEE9;
   color: #495057;
 }
 
